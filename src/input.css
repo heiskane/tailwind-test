@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .nav-button {
+        @apply bg-transparent text-white rounded text-center hover:bg-indigo-900 m-1 p-2
+    }
+
+    .tb-row-p {
+        @apply block font-sans text-sm antialiased font-normal leading-normal
+    }
+}
